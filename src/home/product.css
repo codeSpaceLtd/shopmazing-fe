@@ -1,0 +1,49 @@
+
+.single-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px;
+  margin-top: 20px;
+  width: 30%;
+  max-height: 400px;
+  min-width: 100px;
+  background-color: white;
+  z-index: 1;
+}
+
+.product-card-img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+.product-name {
+max-height: 100px;
+  margin-bottom: 15px;
+  max-width: fit-content;
+}
+
+.product-price {
+  margin-top: 5%;
+  margin-bottom: 0;
+  margin-left: 75%;
+}
+
+#row {
+    justify-content: space-between;
+}
+
+img {
+  max-height: 500px;
+  max-width: 450px;
+}
+
+#add-item-button {
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+  margin-left: 0;
+  
+}
